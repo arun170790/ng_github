@@ -8,7 +8,7 @@ public class Masterscript {
   @Test
   public void Maximo() {
 	  
-	  System.out.println("Hello universe!");
+	  System.out.println("Hello universe!!");
   }
   @BeforeMethod
   public void beforeMethod() {
