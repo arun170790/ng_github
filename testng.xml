@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="ng_testsuite" parallel="methods" thread-count="2">
+<suite name="ng_testsuite">
   <test thread-count="5" name="ng_testset">
   <classes>
       <class name="github_ng.Masterscript"/>
     </classes>
   </test> <!-- ng_testset -->
 </suite> <!-- Suite -->
+
+
+<!-- parallel="methods" thread-count="2" -->
