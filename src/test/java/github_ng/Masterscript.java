@@ -1,11 +1,9 @@
 package github_ng;
 
 import org.testng.annotations.Test;
-
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
-
 import org.testng.annotations.BeforeMethod;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -46,7 +44,7 @@ public class Masterscript {
 	
 	  driver = new ChromeDriver(options);
 	  test_report.log(LogStatus.PASS, "Chrome browser launched");
-	  
+
   }
   
   @Test
@@ -64,7 +62,10 @@ public class Masterscript {
 
   @AfterMethod
   public void afterMethod() {
+	  driver.close();
   }
+  
+  
   
   @AfterClass
   public void teardown() {
