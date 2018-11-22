@@ -63,7 +63,7 @@ public class Masterscript {
 
   @AfterMethod
   public void afterMethod() {
-	  driver.close();
+
   }
   
   
